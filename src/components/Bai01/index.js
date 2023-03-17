@@ -8,7 +8,7 @@ const App = () => {
     { name: "D", code: "4", price: 40 },
   ]);
   return (
-    <div>
+    <>
       {lists.map((item) => {
         return (
           <tr>
@@ -18,7 +18,7 @@ const App = () => {
           </tr>
         );
       })}
-    </div>
+    </>
   );
 };
 export default App;
