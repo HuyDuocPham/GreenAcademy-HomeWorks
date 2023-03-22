@@ -1,16 +1,19 @@
 import { useState } from "react";
 
 const App = () => {
-  const [numbers, setNumbers] = useState([]);
   const [sum, setSum] = useState(0);
 
   const onChange = (e) => {
-    setNumbers([
-        ...numbers, 
-        [e.target.value]
-    ]);
-    setSum( sum + Number(e.target.value))
+    setSum(sums(e.target.value))
   };
+  
+  var result = 0;
+  const sums = (str) => {
+    for ( let i = 0; i< str.length; i++) {
+      result += Number(str[i])
+    }
+    return result
+  }
 
   return (
     <div>
