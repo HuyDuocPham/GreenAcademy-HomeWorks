@@ -1,8 +1,8 @@
-import Bai04 from './components/Bai04'
+import Bai05 from './components/Bai05'
 
 const App = () => {
   return (
-    <Bai04/>
+    <Bai05/>
   );
 }
 
