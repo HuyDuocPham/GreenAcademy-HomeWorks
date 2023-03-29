@@ -7,8 +7,8 @@ const App = () => {
     setSum(sums(e.target.value))
   };
   
-  var result = 0;
   const sums = (str) => {
+    var result = 0;
     for ( let i = 0; i< str.length; i++) {
       result += Number(str[i])
     }
