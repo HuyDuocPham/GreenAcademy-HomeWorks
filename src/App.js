@@ -1,14 +1,15 @@
-import Bai06 from './components/Bai06'
+import 'antd/dist/reset.css'
+import Bai07 from './components/Bai07'
 
 const App = () => {
   return (
-    <Bai06/>
+    <Bai07/>
   );
 }
 
 export default App;
 /**
- * BÀI TẬP REACT
+ BÀI TẬP REACT
 
 Bài 1:
 Tạo một useState products (name, code, price)
@@ -24,7 +25,7 @@ Click button login sẽ hiện lên thông báo: “Đăng nhập thành công".
 
 Bài 3:
 Tạo một input để nhập vào một dãy số
-Chứ mỗi khi nhập một con số bất kì
+Cứ mỗi khi nhập một con số bất kì
 Màn hình sẽ hiện ra tổng của từng ký tự của số đó.
 
 Bài 4:
@@ -42,5 +43,16 @@ Tạo 1 component
 Có 1 input để nhập số n, 1 input để nhập 1 đoạn text t.
 Thêm 1 component để hiển thị một danh sách
 danh sách này hiển thị n lần text t.
+
+Bài 7:
+Tạo 1 component
+Sử dụng Ant design để làm một trang quản lý User (name, email, phone)
+Đầy đủ tính năng thêm xóa sửa
+
+Bài 8:
+Tạo 1 component
+API để lấy dữ liệu thời tiết
+Hiển thị đầy đủ thông tin thời tiết của hồ chí minh
+
 
  */
